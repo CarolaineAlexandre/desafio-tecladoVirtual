@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclado Digital</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2? família=PT+Sans+Narrow&family=Roboto:wght@300&family=Shadows+Into+Light&family=Smooch+Sans:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="texto">Teclado Virtual</h1>
+    <div id="corpo" class="corpo">
+        <div class="tela" id="tela"></div>
+        <!--<input class="porta" id="porta" type="text" placeholder="Insira a senha de 4 dígitos" > <br /> disabled=""-->
+        <button class="number" id="7" onclick="inserir('7')">7</button>
+        <button class="number" id="8" onclick="inserir('8')">8</button>
+        <button class="number" id="9" onclick="inserir('9')">9</button>
+        <br>
+        <button class="number" id="4" onclick="inserir('4')">4</button>
+        <button class="number" id="5" onclick="inserir('5')">5</button>
+        <button class="number" id="6" onclick="inserir('6')">6</button>
+        <br>
+        <button class="number" id="1" onclick="inserir('1')">1</button>
+        <button class="number" id="2" onclick="inserir('2')">2</button>
+        <button class="number" id="3" onclick="inserir('3')">3</button>
+        <br>
+        <button class="number" id="0" onclick="inserir('0')">0</button>
+        <br>
+        <button class="salvar" id="salvar" onclick="salvar()">Salvar</button>
+        <button class="limpar" id="limpar" onclick="limpar()">Limpar</button>
+    </div>
+    <hr>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

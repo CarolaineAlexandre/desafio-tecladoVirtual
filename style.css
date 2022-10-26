@@ -1,0 +1,84 @@
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.texto {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sombras Em Luz', cursiva;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.corpo {
+    background-color: rgb(97, 96, 96);
+    border: 2px solid rgb(45, 45, 45);
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.tela {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    width: 250px;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 5%;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+    margin: 15px 25px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 49, 92);
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 25px;
+    border-color:  rgb(255, 255, 255);
+
+}
+
+.limpar,
+.salvar {
+    font-weight: bold;
+    font-size: 19px;
+    width: 150px;
+    height: 50px;
+    margin: 10px 0px;
+    float: center;
+    text-align: center;
+}
+
+.limpar {
+    background-color: rgb(195, 51, 7);
+    border-color: rgb(195, 51, 7) ;
+    color: aliceblue;
+}
+
+.salvar {
+    background-color: rgb(116, 188, 44);
+    border-color:  rgb(116, 188, 44);
+    color: rgb(0, 0, 0);
+}
+
